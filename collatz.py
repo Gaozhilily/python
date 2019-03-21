@@ -20,5 +20,4 @@ try:
     while number!=1:
         number=collatz(number)
 except ValueError:
-    print('输入错误，请输入一个正整数！')    
-
+    print('输入错误，请输入一个正整数！') 
